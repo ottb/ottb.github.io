@@ -17,5 +17,5 @@
     "eject": "react-scripts eject",
     "deploy" : "npm run build&&gh-pages -d build"
   },
-  "homepage": "https://botticus.github.io"
+  "homepage": "https://botticus.github.io/test-pages"
 }
