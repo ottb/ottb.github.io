@@ -214,6 +214,9 @@
         }
 
     }; 
-	videoPlayer.init();
+	
+    if (video) {
+        videoPlayer.init();
+    }
 		 
 }( this, document ))
