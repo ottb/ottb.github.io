@@ -10,10 +10,10 @@ class KalturaVideo extends Component {
         overflow: "hidden"
     };
     return (
-        <div id="js-kaltura-wrapper" class="kaltura-video__container" style={ wrapperStyle }>
+        <div id="js-kaltura-wrapper" className="kaltura-video__container" style={ wrapperStyle }>
             <div class="kaltura-video__dummy"></div>
             <script src="https://cdnapisec.kaltura.com/p/2207941/sp/220794100/embedIframeJs/uiconf_id/37292221/partner_id/2207941"></script>
-            <div id="kaltura_player_e30d2723-221d-4333-814f-d58fc8192b61" class="kWidgetIframeContainer kaltura-video__video" style={ videoStyle }>
+            <div id="kaltura_player_e30d2723-221d-4333-814f-d58fc8192b61" className="kWidgetIframeContainer kaltura-video__video" style={ videoStyle }>
             </div>
         </div>
     );
