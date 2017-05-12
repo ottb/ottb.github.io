@@ -24,7 +24,7 @@ class App extends Component {
     return(
       <div>
         {!this.state.showContent && (isMobile ? <KalturaVideo /> : <HTML5Video />)}
-        <ToggleButton text = "2016 Annual Report" toggleDisplay={this.toggleDisplay.bind(this)} />
+        <ToggleButton text="2016 Annual Report" toggleDisplay={this.toggleDisplay.bind(this)} />
         {this.state.showContent && <PageContent />}
       </div>
     );

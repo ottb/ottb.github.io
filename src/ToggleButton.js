@@ -13,9 +13,17 @@ class ToggleButton extends Component {
   }
   
   render() {
+    var buttonStyle = {
+        position: "fixed",
+        width: "100%",
+        height: "60px",
+        backgroundColor: "rgba(0,117,180, 1)",
+        padding: "5px",
+        bottom: "0px"
+    }
     return (
         <div>
-            <button onClick={this.togglePosition}>{this.props.text} ({String(this.state.isToggled)})</button>
+            <button style={buttonStyle} onClick={this.togglePosition}>{this.props.text} ({String(this.state.isToggled)})</button>
         </div>
     );
   }
