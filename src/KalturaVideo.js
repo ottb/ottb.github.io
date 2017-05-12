@@ -8,10 +8,7 @@ class KalturaVideo extends Component {
     };
     return (
         <div id="js-kaltura-wrapper" className="kaltura-video__container">
-            <div className="kaltura-video__dummy"></div>
-            <script src="https://cdnapisec.kaltura.com/p/2207941/sp/220794100/embedIframeJs/uiconf_id/37292221/partner_id/2207941"></script>
-            <div id="kaltura_player_e30d2723-221d-4333-814f-d58fc8192b61" className="kWidgetIframeContainer kaltura-video__video" style={ videoStyle }>
-            </div>
+            <iframe className="js-iframe--video kaltura-video__video" src="https://cdnapisec.kaltura.com/p/2207941/sp/220794100/embedIframeJs/uiconf_id/37372321/partner_id/2207941?iframeembed=true&playerId=kaltura_player_1479830519&entry_id=1_iw99z2di&flashvars[streamerType]=auto" width="296" height="167" allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder="0"></iframe>
         </div>
     );
   }
