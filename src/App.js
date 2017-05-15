@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import HTML5Video from './HTML5Video.js';
-import KalturaVideo from './KalturaVideo.js';
-import ToggleButton from './ToggleButton.js';
-import PageContent from './PageContent.js';
+import HTML5Video from './HTML5Video';
+import KalturaVideo from './KalturaVideo';
+import ToggleButton from './ToggleButton';
+import PageContent from './PageContent';
 import './styles.css';
 
 class App extends Component {
@@ -12,6 +12,7 @@ class App extends Component {
     this.toggleDisplay = this.toggleDisplay.bind(this);
   }
 
+  // this probably isn't the best place for this; likely need something between app and components
   toggleDisplay() {
     this.setState({
       showContent: !this.state.showContent

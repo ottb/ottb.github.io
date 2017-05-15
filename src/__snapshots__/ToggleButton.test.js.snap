@@ -1,0 +1,19 @@
+exports[`test button changes isToggled state when clicked 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(0,117,180, 1)",
+      "bottom": "0px",
+      "height": "60px",
+      "padding": "5px",
+      "position": "fixed",
+      "width": "100%",
+    }
+  }>
+  2016 Annual Report
+   (
+  false
+  )
+</button>
+`;

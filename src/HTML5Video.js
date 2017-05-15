@@ -6,6 +6,8 @@ class HTML5Video extends Component {
 		const videoStyle = {
         bottom: "80px"
     };
+		// Obviously the media items below should be a property and not hard-coded.
+		// Controls would move into a separate component as well.
     return (
       <div id="js-video-wrapper" className="video-wrapper" style={ videoStyle }>
 				<video id="js-video" className="video" controls preload playsInline autoPlay loop poster="img/2016-ar-bg.png">

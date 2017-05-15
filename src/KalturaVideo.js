@@ -13,6 +13,7 @@ class KalturaVideo extends Component {
         width: "100%",
         height: "100%"
     };
+    // Obviously the video would be an input property of the component and not hard-coded.
     return (
         <div id="js-kaltura-wrapper" className="kaltura-video__container">
             <div className="kaltura-video__dummy"></div>
